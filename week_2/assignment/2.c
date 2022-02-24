@@ -1,3 +1,5 @@
+// Printing result of mathematical operation of different data types (float and interger)
+
 #include <stdio.h>
 int main()
 {

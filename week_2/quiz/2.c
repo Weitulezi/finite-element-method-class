@@ -1,3 +1,5 @@
+// Printing variables with different data types
+
 #include <stdio.h>
 
 int main() {

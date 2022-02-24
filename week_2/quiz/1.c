@@ -1,3 +1,5 @@
+// Display integer value from user input
+
 int main() {
     int a;
     printf("Please enter number from keyboard: ");
