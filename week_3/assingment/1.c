@@ -8,6 +8,7 @@ double funcx(double x) {
     gx = x * x * x * x - 7.0 * x * x * x + 14.0 * x * x - 8.0 * x;
     return gx;
 }
+
 double funcxx(double xx) {
     double hx;
     hx = 3.0 * xx * xx * xx - 14.0 * xx * xx + 28.0 * xx - 8.0;

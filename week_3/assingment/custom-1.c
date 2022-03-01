@@ -10,6 +10,7 @@ double original_function(double x) {
     gx = x * x * x * x - 7.0 * x * x * x + 14.0 * x * x - 8.0*x;
     return gx;
 }
+
 double first_derivative_function(double x) {
     double hx;
     hx = 3.0 * x * x * x - 14.0 * x * x + 28.0 * x - 8.0;
