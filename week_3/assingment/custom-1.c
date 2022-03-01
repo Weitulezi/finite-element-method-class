@@ -1,16 +1,18 @@
+//  File with prefix custom are contain more 'proper' way of code the assignment/quiz
+
 #include <stdio.h>
 #include <math.h>
 
 // Polynomial Equation : x^4 - 7x^3 + 14x^2 - 8x
 
-double funcx(double x) {
+double original_function(double x) {
     double gx;
-    gx = x * x * x * x - 7.0 * x * x * x + 14.0 * x * x - 8.0 * x;
+    gx = x * x * x * x - 7.0 * x * x * x + 14.0 * x * x - 8.0*x;
     return gx;
 }
-double funcxx(double xx) {
+double first_derivative_function(double x) {
     double hx;
-    hx = 3.0 * xx * xx * xx - 14.0 * xx * xx + 28.0 * xx - 8.0;
+    hx = 3.0 * x * x * x - 14.0 * x * x + 28.0 * x - 8.0;
     return hx;
 }
 
@@ -21,8 +23,8 @@ int main ( ) {
     xold = 3.5;
 
     for(n=0; n<100; n++) {
-        fx = funcx(xold);
-        fxx = funcxx(xold);
+        fx = original_function(xold);
+        fxx = first_derivative_function(xold);
         xnew = xold - fx / fxx;
         dx = fabs(xnew - xold);
 
