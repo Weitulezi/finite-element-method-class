@@ -1,6 +1,3 @@
-// NIM : 190401069
-// Dixon Andrew Vande Star Simbolon
-
 #include <stdio.h>
 
 int main(void) {

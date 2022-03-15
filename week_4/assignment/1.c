@@ -1,5 +1,3 @@
-// NIM : 190401069
-
 #include <stdio.h>
 
 int main()
